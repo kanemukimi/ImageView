@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/res2"
+    tools:context=".Register">
+    <ImageView
+        android:background="@drawable/register"
+        android:layout_width="200dp"
+        android:layout_height="200dp">
+    </ImageView>
+
+    <EditText
+        android:hint="First Name"
+        android:id="@+id/firstname"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:padding="16dp"
+        android:background="@drawable/resource3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+    <EditText
+        android:layout_marginTop="5dp"
+        android:hint="Last Name"
+        android:id="@+id/lastname"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:padding="16dp"
+        android:background="@drawable/resource3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+    <EditText
+        android:hint="Country Name"
+        android:layout_marginTop="5dp"
+        android:id="@+id/countryname"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:padding="16dp"
+        android:background="@drawable/resource3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+    <EditText
+        android:hint="Nick Name"
+        android:layout_marginTop="5dp"
+        android:id="@+id/nickname"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:padding="16dp"
+        android:background="@drawable/resource3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+    <EditText
+        android:hint="Phone Number"
+        android:layout_marginTop="5dp"
+        android:id="@+id/phonenumber"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:padding="16dp"
+        android:background="@drawable/resource3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+    <Button
+        android:layout_marginTop="20dp"
+        android:text="Register"
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+    <TextView
+        android:text="Already have an Account!!"
+        android:textColor="@color/blue"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:id="@+id/textView2"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+</LinearLayout>
